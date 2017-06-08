@@ -11,6 +11,10 @@ public class UrlEndPoint {
         return BASE_URL+ "/v1/public/characters";
     }
 
+    public static String getComics(){
+        return BASE_URL+"/v1/public/comics";
+    }
+
     public static String getMD5(String timestamp){
         try{
             java.security.MessageDigest md=java.security.MessageDigest.getInstance("MD5");
